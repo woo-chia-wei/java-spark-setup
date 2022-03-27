@@ -13,3 +13,15 @@ The versions might not be compatible or it was outdated, below are my local sett
 * Java with version **Java 8 (8u262-b10)**, download: https://www.openlogic.com/openjdk-downloads
 * Spark with version **spark-3.2.1-bin-hadoop3.2**, download: https://spark.apache.org/downloads.html
 * winutils.exe with version **hadoop-3.2.2**, download: https://github.com/cdarlint/winutils
+
+# PySpark Compatibility
+Below is my local setting, tested and working well:
+
+* Python version = 3.8.8  
+* Java version = JDK 8u311   
+* Spark version = 3.0.1  
+* Hadoop version = 3.2  
+
+Please add following at beginning of python code:
+`import findspark`
+`findspark.init(r"C:\Spark\spark-3.0.1-bin-hadoop3.2")`
