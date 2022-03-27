@@ -22,6 +22,6 @@ Below is my local setting, tested and working well:
 * Spark version = 3.0.1  
 * Hadoop version = 3.2  
 
-Please add following at beginning of python code:
-`import findspark`
-`findspark.init(r"C:\Spark\spark-3.0.1-bin-hadoop3.2")`
+Please add following at beginning of python code:  
+`import findspark`  
+`findspark.init(r"C:\Spark\spark-3.0.1-bin-hadoop3.2")`  
